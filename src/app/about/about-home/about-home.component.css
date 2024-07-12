@@ -1,0 +1,23 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-bottom: 20px;
+}
+
+.chunjido, .introduction {    
+    grid-column: 2/7;
+    font-family: 'Alumni Sans';
+    font-size: 25px;
+    justify-items: center;
+}
+
+.paragraph {
+    margin-top: 30px;
+}
+
+.chunjido_logo {
+    grid-column: 4;
+    height: 300px;
+    margin-top: 100px;
+}
+

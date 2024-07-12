@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: 'Alumni Sans';
+    font-size: 25px;
+    gap: 20px;
+}
+
+.paragraph {
+    grid-column: 2/7;
+}
+
+.calendar {
+    grid-column: 2/7;
+}
