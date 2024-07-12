@@ -42,4 +42,4 @@ testem.log
 Thumbs.db
 
 #assets
-/assets/images/
+/src/assets/images/*
